@@ -38,19 +38,17 @@ Resolution: The agent returns a strict JSON payload detailing the resolution sta
 
 Note on Development: This repository currently utilizes a MockAnthropicClient for local development and testing. This architectural choice allows for rapid iteration of the agentic tool loop and JSON parsing logic without consuming live API budget. It can be instantly swapped to the live anthropic SDK for production.
 
-🚀 Getting Started
+## 🚀 Getting Started
 
-1. Clone the repository:
-
-git clone [https://github.com/YourUsername/agentic-itsm-resolver.git](https://github.com/YourUsername/agentic-itsm-resolver.git)
+**1. Clone the repository:** 
+```bash
+git clone [https://github.com/aryavishnu2540/agentic-itsm-resolver.git](https://github.com/aryavishnu2540/agentic-itsm-resolver.git)
 cd agentic-itsm-resolver
-
 
 2. Install dependencies:
 
-pip install anthropic
-
+    pip install anthropic
 
 3. Run the interactive agent:
 
-python main.py
+    python main.py
