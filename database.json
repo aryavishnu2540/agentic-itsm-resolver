@@ -1,0 +1,32 @@
+{
+  "tickets": [
+    {
+      "ticket_id": "TKT-101",
+      "employee_id": "EMP-849",
+      "issue_type": "Password Reset",
+      "details": "I am locked out of my corporate login account.",
+      "status": "PENDING"
+    },
+    {
+      "ticket_id": "TKT-102",
+      "employee_id": "EMP-204",
+      "issue_type": "Database Provisioning",
+      "details": "Need a fresh database spun up for the batch of 2027.",
+      "status": "PENDING"
+    }
+  ],
+  "users": [
+    {
+      "employee_id": "EMP-849",
+      "name": "Arya",
+      "account_locked": false,
+      "has_database": false
+    },
+    {
+      "employee_id": "EMP-204",
+      "name": "Rahul",
+      "account_locked": false,
+      "has_database": false
+    }
+  ]
+}
